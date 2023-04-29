@@ -256,7 +256,7 @@ header {
 .product h3 {
     height: 35px;
     margin-bottom: 5px;
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 
 .product img {
@@ -570,11 +570,23 @@ header {
     border-radius: 10px;
 }
 
+.description div .comments {
+    max-width: 800px;
+}
+
+.description .content-footer {
+    max-width: 800px;
+}
+
 .comment {
     border: 1px solid var(--color-secundary);
     margin: 15px 0;
     padding: 10px;
     border-radius: 10px;
+}
+
+.comment div {
+    padding: 10px 0;
 }
 
 .comment-text {
@@ -725,6 +737,10 @@ header {
 
     .container-products h2 {
         font-size: 1.5rem;
+    }
+
+    .product h3 {
+        font-size: .9rem;
     }
 
     .atacado div h3 {
