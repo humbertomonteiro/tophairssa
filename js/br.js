@@ -78,3 +78,20 @@ bars.onclick = e => {
     links.classList.toggle('show')
     links.classList.toggle('links')
 }
+
+
+const atacado = document.querySelectorAll('[atacado]')
+
+atacado.forEach(e => {
+    e.onclick = a => {
+        a.preventDefault()
+
+        fetch('pages/cabeloAtacado.html')
+            .then(resp => resp.text())
+            .then(page => main.innerHTML = page)
+
+        clearInterval(interval)
+
+        window.scroll(0, 0)
+    }
+})
