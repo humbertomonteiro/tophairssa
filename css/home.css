@@ -427,7 +427,7 @@ header {
     font-size: 2.1rem;
     color: var(--color-tertiary);
     margin: 30px 0;
-    max-width: 95%;
+    max-width: 70%;
     text-align: center;
 }
 
@@ -464,7 +464,7 @@ header {
 
 .description div {
     max-width: 100%;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 
 .description div h3 {
@@ -540,9 +540,23 @@ header {
     transform: scale(1.1);
 }
 
-.description div img {
+.carrossel-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 40px;
-    width: 250px;
+}
+
+.description div img {
+    width: 100%;
+}
+
+.slide-product {
+    display: none;
+}
+
+.visible {
+    display: block;
 }
 
 .description div a img {
@@ -576,6 +590,10 @@ header {
 
 .description .content-footer {
     max-width: 800px;
+}
+
+.description .content-footer h1 {
+    min-width: 100%;
 }
 
 .comment {
@@ -763,7 +781,7 @@ header {
 
     /* pages */
     .page h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .description div article .box {

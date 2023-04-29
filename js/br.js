@@ -80,4 +80,3 @@ bars.onclick = e => {
 }
 
 
-const atacado = document.querySelectorAll('[atacado]')
