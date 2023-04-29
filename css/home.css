@@ -551,6 +551,10 @@ header {
     width: 100%;
 }
 
+.description div .description-img img{
+    max-width: 350px;
+}
+
 .slide-product {
     display: none;
 }
