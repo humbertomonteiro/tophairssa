@@ -31,7 +31,7 @@ header {
 }
 
 .logo img {
-    width: 15%;
+    width: 10%;
 }
 
 .bars {
@@ -49,6 +49,8 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    opacity: 0;
+    animation: slideYBottom 0.8s ease forwards;
 }
 
 .links a {
@@ -57,11 +59,11 @@ header {
     padding: 10px;
     font-size: .8rem;
     transition: .5s;
-    opacity: 0;
-    animation: slideYBottom 0.8s ease forwards;
 }
 
 .links a:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
     background-color: var(--color-main);
 }
 
@@ -252,8 +254,9 @@ header {
 }
 
 .product h3 {
-    height: 30px;
+    height: 35px;
     margin-bottom: 5px;
+    font-size: .9rem;
 }
 
 .product img {
@@ -425,7 +428,7 @@ header {
     font-size: 2.1rem;
     color: var(--color-tertiary);
     margin: 30px 0;
-    max-width: 80%;
+    max-width: 99%;
     text-align: center;
 }
 
@@ -435,8 +438,8 @@ header {
 
 .backPage {
     position: fixed;
-    top: 50px;
-    left: 10px;
+    top: 3.5%;
+    left: 10%;
     cursor: pointer;
     padding: 5px;
     border-radius: 5px;
@@ -448,7 +451,7 @@ header {
 }
 
 .backPage i {
-    font-size: 2rem;
+    font-size: 4rem;
     color: var(--color-tertiary);
 }
 
@@ -614,7 +617,7 @@ header {
     background-color: #000;
     color: #fff;
     text-align: right;
-    border-radius: 0 0 0 5px;
+    border-radius: 5px 0 0 5px;
     z-index: 4;
     opacity: 0;
     animation: slideYBottom .8s ease forwards;
@@ -759,6 +762,15 @@ header {
 
     .box-footer {
         width: 230px;
+    }
+
+    .backPage {
+        top: 50px;
+        left: 0;
+    }
+
+    .backPage i {
+        font-size: 2rem;
     }
 
 }
