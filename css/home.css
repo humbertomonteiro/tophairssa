@@ -744,13 +744,17 @@ header {
     }
 
     .product {
-        width: 150px;
+        width: 40%;
         padding: 10px;
         margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .product img  {
-        width: 100%;
+        width: 160px;
     }
 
     .product a {
