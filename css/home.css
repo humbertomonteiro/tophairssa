@@ -249,7 +249,7 @@ header {
 .product {
     max-width: 290px;
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -261,7 +261,6 @@ header {
 
 .product img {
     width: 250px;
-    height: 300px;
     margin-top: 15px;
 }
 
@@ -428,7 +427,7 @@ header {
     font-size: 2.1rem;
     color: var(--color-tertiary);
     margin: 30px 0;
-    max-width: 99%;
+    max-width: 95%;
     text-align: center;
 }
 
@@ -464,7 +463,8 @@ header {
 }
 
 .description div {
-    max-width: 90%;
+    max-width: 100%;
+    padding: 0 10px;
 }
 
 .description div h3 {
@@ -516,6 +516,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .description div a {
@@ -541,7 +542,7 @@ header {
 
 .description div img {
     margin-bottom: 40px;
-    width: 350px;
+    width: 250px;
 }
 
 .description div a img {
@@ -555,7 +556,7 @@ header {
 }
 
 .description div ul li {
-    margin: 10px 0;
+    margin: 15px;
 }
 
 .description-img,
@@ -618,7 +619,7 @@ header {
     color: #fff;
     text-align: right;
     border-radius: 5px 0 0 5px;
-    z-index: 4;
+    z-index: 5;
     opacity: 0;
     animation: slideYBottom .8s ease forwards;
 }
@@ -642,6 +643,13 @@ header {
         flex-direction: row;
         justify-content: space-between;
         padding: 0 30px;
+        position: fixed;
+        top: 0;
+        z-index: 4;
+    }
+
+    main {
+        margin-top: 70px;
     }
 
     #logo {
@@ -649,7 +657,7 @@ header {
     }
 
     .logo img {
-        width: 30%;
+        width: 20%;
     }
 
     .bars {
@@ -709,7 +717,6 @@ header {
 
     .product img  {
         width: 100%;
-        height: 190px;
     }
 
     .product a {
@@ -774,6 +781,16 @@ header {
     }
 
 }
+
+@media (max-width: 520px) {
+    .logo img {
+        width: 30%;
+    }
+
+    main {
+        margin-top: 55px;
+    }
+} 
 
 
 
