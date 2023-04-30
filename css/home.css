@@ -459,7 +459,8 @@ header {
 }
 
 .description {
-    max-width: 90%;
+    width: 95%;
+    max-width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -467,12 +468,16 @@ header {
 }
 
 .description div {
-    max-width: 90%;
+    max-width: 97%;
     margin: auto;
 }
 
 .description div h3 {
     margin: 20px 0 5px 0;
+}
+
+.description div p {
+    margin-bottom: 10px;
 }
 
 .description div article {
@@ -597,28 +602,36 @@ header {
 
 .description .content-footer {
     max-width: 800px;
+    padding: 0 20px;
 }
 
 .description .content-footer h1 {
     min-width: 100%;
 }
 
-.description .comments .comment {
+
+.page .container-comments h1 {
+    font-size: 2rem;
+}
+
+.comments .comment {
     border: 1px solid var(--color-secundary);
     margin: 15px 0;
     padding: 10px;
     border-radius: 10px;
 }
 
-.comment div {
-    padding: 10px 0;
+.comments {
+    padding: 10px 20px;
+
 }
 
 .comment-text {
     max-width: 600px;
+    padding: 20px 0;
 }
 
-.img {
+.comment .img {
     display: flex;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--color-secundary);
@@ -796,7 +809,7 @@ header {
     }
 
     .description div article .box {
-        width: 130px;
+        width: 140px;
         height: 160px;
         margin: 20px 5px;
         padding: 5px;
@@ -809,6 +822,10 @@ header {
     .description div article .box h3 {
         font-size: 1rem;
         text-align: center;
+    }
+
+    .description div article .box p {
+        font-size: .9rem;
     }
 
 
