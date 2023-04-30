@@ -56,8 +56,7 @@ header {
 .links a {
     text-decoration: none;
     color: #fff;
-    padding: 10px;
-    font-size: .8rem;
+    padding: 10px;    
     transition: .5s;
 }
 
@@ -138,7 +137,7 @@ header {
 
 .container-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 25px 5px;
     padding: 0 10px 25px 10px;
     color: var(--color-main);
@@ -164,6 +163,8 @@ header {
     min-width: 10%;
     cursor: pointer;
     font-weight: bold;
+    min-width: 58px;
+    max-width: 80px;
     transition: .5s;
 }
 
@@ -184,7 +185,7 @@ header {
 
 .info {
     display: flex;
-    justify-content: centerre;
+    justify-content: center;
     align-items: center;
     transition: .5s;
     font-weight: bold;
@@ -210,7 +211,8 @@ header {
 }
 
 .info i {
-    margin-right: 5px;
+    margin-right: 10px;
+    font-size: 2rem;
 }
 
 .infos span {
@@ -295,7 +297,7 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: 20px -15px 0 -15px;
-    padding: 20px 100px;
+    padding: 20px;
     background-color: var(--color-main);
 }
 
@@ -557,6 +559,7 @@ header {
 
 .description div img {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .description div .description-img img{
@@ -685,6 +688,17 @@ header {
     background-color: var(--color-main);
 }
 
+@media (max-width: 700px) {
+
+    .links a {
+        font-size: .8rem;
+    }
+
+    .info i {
+        font-size: 1.5rem;
+    }
+}
+
 
 @media (max-width: 660px) {
 
@@ -712,6 +726,7 @@ header {
 
     .bars {
         display: block;
+        padding: 15px;
     }
 
     .bars i {
@@ -737,7 +752,7 @@ header {
     }
 
     .info-btn-cantos p {
-        font-size: .5rem;
+        font-size: .6rem;
     }
 
     .infos {
@@ -762,6 +777,7 @@ header {
 
     .info i {
         font-size: 1rem;
+        margin: 0;
     }
 
     .product {

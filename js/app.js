@@ -41,9 +41,9 @@ comments.onclick = e => {
 about.onclick = e => {
     ajax(e, 'pages-footers/about.html')
 }
-howShopping.onclick = e => {
-    ajax(e, 'pages-footers/how-shopping.html')
-}
+// howShopping.onclick = e => {
+//     ajax(e, 'pages-footers/how-shopping.html')
+// }
 security.onclick = e => {
     ajax(e, 'pages-footers/security.html')
 }
