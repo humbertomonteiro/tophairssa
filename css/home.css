@@ -748,15 +748,20 @@ header {
     
     .infos .frete {
         max-width: 80px;
+        margin-top: 27px;
     }
 
     .infos span {
-        font-size: .4rem;
+        font-size: .5rem;
     }
 
     .info {
         display: flex;
         flex-direction: column;
+    }
+
+    .info i {
+        font-size: 1rem;
     }
 
     .product {
