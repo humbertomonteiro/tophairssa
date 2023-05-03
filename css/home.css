@@ -808,6 +808,7 @@ header {
 
     .product h3 {
         font-size: 1rem;
+        padding-bottom: 30px;
     }
 
     .atacado div h3 {
@@ -815,6 +816,7 @@ header {
         margin: 10px 0 0 0;
         text-align: center;
         font-size: 1.8rem;
+        padding-bottom: 60px;
     }
 
     .atacado div a {
