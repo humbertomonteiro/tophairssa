@@ -273,6 +273,7 @@ header {
 .product img {
     width: fit-content;
     max-width: 300px;
+    transform: scale(.9);
 }
 
 
@@ -281,11 +282,11 @@ header {
     text-decoration: none;
     color: #fff;
     background-color: var(--color-main);
-    padding: 8px 35px;
+    padding: 8px 20px;
     font-size: .7rem;
     border-radius: 15px;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     font-weight: bold;
     transition: .5s;
 }
@@ -566,6 +567,7 @@ header {
 .description div img {
     width: fit-content;
     margin-bottom: 20px;
+    transform: scale(.8);
 }
 
 .description div .description-img img {
