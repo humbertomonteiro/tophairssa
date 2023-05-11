@@ -943,6 +943,10 @@ header {
         max-width: 350px;
     }   
 
+    .description .div-img-description img:hover {
+        transform: scale(1);
+    }
+
     .description div article .box {
         width: 140px;
         height: 160px;
