@@ -258,7 +258,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center ;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .categori {
