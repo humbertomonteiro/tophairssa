@@ -890,6 +890,9 @@ header {
         max-width: 160px;
         text-align: center;
         font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .categori img {
@@ -945,7 +948,7 @@ header {
 
     /* pages */
     .page h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .description .div-img-description {
