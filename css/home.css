@@ -267,6 +267,7 @@ header {
     justify-content: center;
     align-items: center;
     max-width: 290px;
+    margin: 20px;
 }
 
 .categori h3 {
@@ -276,7 +277,9 @@ header {
 }
 
 .categori img {
-    max-width: 300px;
+    max-width: 280px;
+    min-height: 240px;
+    border-radius: 4px;
 }
 
 .categori a {
@@ -343,7 +346,8 @@ header {
 }
 
 .product img {
-    max-width: 220px;
+    max-width: 280px;
+    border-radius: 4px;
 }
 
 
@@ -551,8 +555,9 @@ header {
     margin: auto;
 }
 
-.description .description-atacado-img .img-atacado img {
-    max-width: 350px;
+.description .description-atacado-img img {
+    width: 300px;
+    border-radius: 4px;
 }
 
 .description div h3 {
@@ -651,6 +656,7 @@ header {
 
 .description .div-img-description img {
     width: 100%;
+    border-radius: 4px;
     transition: .8s;
 }
 
@@ -883,7 +889,7 @@ header {
 
     .categori {
         width: 50%;
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
 
     .categori h3 {
@@ -896,7 +902,7 @@ header {
     }
 
     .categori img {
-        width: 100%;
+        width: 180px;
     }
 
     .product {
