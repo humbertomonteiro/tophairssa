@@ -551,8 +551,16 @@ header {
     margin: auto;
 }
 
+.description .description-atacado-img .img-atacado img {
+    max-width: 350px;
+}
+
 .description div h3 {
     margin: 20px 0 5px 0;
+}
+
+.description div h2 {
+    font-size: 2rem;
 }
 
 .description div p {
@@ -907,7 +915,7 @@ header {
     }
 
     .container-products h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .product h3 {
@@ -937,7 +945,7 @@ header {
 
     /* pages */
     .page h1 {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     .description .div-img-description {
