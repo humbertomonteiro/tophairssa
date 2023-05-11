@@ -337,7 +337,8 @@ header {
 
 .product h3 {
     font-size: 1.2rem;
-    max-width: 220px;
+    max-width: 220px,
+
 }
 
 .product img {
@@ -882,7 +883,7 @@ header {
     }
 
     .categori img {
-        width: 180px;
+        width: 100%;
     }
 
     .product {
@@ -911,6 +912,7 @@ header {
         font-size: 1rem;
         max-width: 160px;
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .atacado div h3 {
@@ -937,9 +939,9 @@ header {
         font-size: 1.2rem;
     }
 
-    .description div img {
+    .description .div-img-description {
         max-width: 350px;
-    }
+    }   
 
     .description div article .box {
         width: 140px;
