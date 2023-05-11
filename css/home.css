@@ -885,6 +885,7 @@ header {
 
     .container-categories h2 {
         font-size: 2rem;
+        margin: 0;
     }
 
     .categori {
@@ -942,7 +943,6 @@ header {
         margin: 10px 0 0 0;
         text-align: center;
         font-size: 1.8rem;
-        padding-bottom: 60px;
     }
 
     .atacado div a {
