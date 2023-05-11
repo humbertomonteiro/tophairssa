@@ -270,8 +270,9 @@ header {
 }
 
 .categori h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
+    height: 50px;
 }
 
 .categori img {
@@ -337,8 +338,8 @@ header {
 
 .product h3 {
     font-size: 1.2rem;
-    max-width: 220px,
-
+    max-width: 220px;
+    height: 50px;
 }
 
 .product img {
@@ -874,11 +875,11 @@ header {
 
     .categori {
         width: 50%;
+        margin-bottom: 20px;
     }
 
     .categori h3 {
         max-width: 160px;
-        height: 30px;
         text-align: center;
         font-size: 1rem;
     }
@@ -929,10 +930,9 @@ header {
         font-size: 1rem;
     }
 
-    .atacado img {
-        max-width: 200px;
+    .description div .description-atacado-img {
+        max-width: 300px;
     }
-
 
 
     /* pages */
@@ -966,6 +966,10 @@ header {
 
     .description div article .box p {
         font-size: .9rem;
+    }
+
+    .description div .img-atacado img {
+        max-width: 300px;
     }
 
 
