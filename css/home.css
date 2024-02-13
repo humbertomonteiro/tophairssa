@@ -391,7 +391,7 @@ header {
   background-color: var(--color-secundary);
   display: block;
   margin-top: 15px;
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 4px;
   font-size: 1.2rem;
   transition: 0.5s;
@@ -413,7 +413,7 @@ header {
 .atacado img {
   width: fit-content;
   max-width: 250px;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 /* location */
